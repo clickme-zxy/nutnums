@@ -28,7 +28,7 @@ def index() -> rx.Component:
         # header
         rx.hstack(
             rx.vstack(
-                rx.text("Nutnums, streamlines your collecting experience, treasure hunting made easy",font_size="3em",as_="b",padding_left="3em",),
+                rx.text("Nutnums, streamlines your collecting experience, treasure hunting made easy",font_size="3em",as_="b",padding_left="0.5em",),
                 rx.text("",font_size= "3em"),
                 rx.text("For fans by fans",as_="i",font_size="3em",padding_right="9em",),
                 width = "70%"
