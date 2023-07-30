@@ -102,13 +102,11 @@ All of which become even more painful for someone with both ADHD and OCD like me
             padding_right = "10%",
         ),
 
-        rx.stack(
+        rx.vstack(
             rx.markdown("""
             ### About the team
             """
             ),
-            padding_left = "10%",
-            padding_right = "10%",
         ),
     )
 
